@@ -1,0 +1,70 @@
+
+#home::before {
+    
+  
+    content: "";
+    position: absolute;
+    background: url(images/tim-marshall-cAtzHUz7Z8g-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     height: 100%;
+    /* top: 0px;
+    left: 0px; */
+      width: 100%; 
+    z-index: -1;
+   
+} 
+.navbar
+{
+    color:whitesmoke;
+    
+}
+#left-side
+{
+
+    /* border:2px solid yellowgreen; */
+    float: right;
+}
+#right-side
+{
+    float: right;
+    /* border:2px solid whitesmoke; */
+    margin-right:5%;
+    
+}
+#left-side a{
+    font-size: large;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#right-side a{
+    float: left;
+    font-size: large;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+#right-side a:hover{
+    color:red;
+    
+}
+#right-side a:active{
+    color:red;
+    
+}
+
+.quotation
+{
+    display:inline-block;
+    width:20%;
+    
+    text-align: center;
+    /* border: 2px solid yellow; */
+    color: whitesmoke;
+    font-size: 180%;
+    margin-top:20%;
+     margin-left:39%;
+} 
